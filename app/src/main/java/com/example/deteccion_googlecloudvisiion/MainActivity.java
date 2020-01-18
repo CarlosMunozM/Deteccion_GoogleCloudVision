@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
         Vision.Builder visionBuilder = new Vision.Builder(new NetHttpTransport(),
                 new AndroidJsonFactory(), null);
-        visionBuilder.setVisionRequestInitializer(new VisionRequestInitializer("AIzaSyCV_ADpVQp5_K1CQ98gc6KeOVq5p1sjqKQ"));
+        visionBuilder.setVisionRequestInitializer(new VisionRequestInitializer(""));
         vision = visionBuilder.build();
 
     }
